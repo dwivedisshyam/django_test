@@ -1,0 +1,11 @@
+# Install and create virtual env
+- `pip3 install virtualenv`
+- `virtualenv -p python3 env`
+- `source ./env/bin/activate`
+- `pip install django`
+- `django-amdin startproject myproject`
+- `python manage.py startapp myapp`
+- `python manage.py makemigrations`
+- `python manage.py migrate`
+- `python manage.py runserver`
+- `python manage.py createsuperuser`
